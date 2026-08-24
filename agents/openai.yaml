@@ -1,0 +1,3 @@
+interface:
+  display_name: "Wechat Codex Bridge"
+  short_description: "Manage the WeChat-to-Codex bridge"
