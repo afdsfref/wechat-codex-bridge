@@ -1,0 +1,17 @@
+{
+  "agent": {
+    "preset": "codex-local",
+    "cwd": "C:/Users/Administrator/Documents/Codex",
+    "showDiffs": true
+  },
+  "agents": {
+    "codex-local": {
+      "label": "Codex ACP",
+      "description": "Codex via local @agentclientprotocol/codex-acp",
+      "command": "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+      "args": [
+        "C:/Users/Administrator/Documents/Codex/wechat-codex-bridge/node_modules/.pnpm/@agentclientprotocol+codex-acp@1.6.2/node_modules/@agentclientprotocol/codex-acp/dist/index.js"
+      ]
+    }
+  }
+}
